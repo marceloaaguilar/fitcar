@@ -1,0 +1,160 @@
+ 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px  lightgray;
+  }
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #d18a06;
+}
+
+#logoFitCar{
+    width: 5rem;
+    height: 100%;
+}
+
+.btn-custom {
+    background-color: #FCAC13;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    background-color: #d18a06;
+    color: white;
+}
+
+.header-banner {
+    background-color: #F8F8F8;
+    margin-top: 2rem;
+}
+
+#imgHeader {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50% 0 50% 0; 
+}
+
+.fitcar-section {
+    background-color: #f4f5f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.fitcar-section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.fitcar-section h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #FCAC13;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.fitcar-section p.lead {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.fitcar-section .icon-box .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #FCAC13;
+    text-align: center;
+}
+
+.fitcar-section .icon-box .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.fitcar-section .icon-box i {
+    font-size: 2.5rem;
+    color: #FCAC13;
+    margin-bottom: 15px;
+}
+
+.fitcar-section .icon-box h4 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.fitcar-section .btn-custom {
+    background-color: #FCAC13;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.fitcar-section .btn-custom:hover {
+    background-color: #e6a010;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnFooter{
+    border: 1px solid #FCAC13;
+    color: #FCAC13;
+    background-color: unset;
+    border-radius: 20px;
+}
+
+.btnFooter:hover{
+    background-color: #FCAC13;
+    color: black;
+    border: unset;
+}
+
+
+
+@media screen and (max-width: 769px) {
+    #navbarNav{
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggle:focus{
+        border: none;
+    }
+}
