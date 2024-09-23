@@ -1,6 +1,7 @@
  
 body {
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -142,8 +143,6 @@ body {
     border: unset;
 }
 
-
-
 @media screen and (max-width: 769px) {
     #navbarNav{
         padding: 2rem;
@@ -157,4 +156,9 @@ body {
     .navbar-toggle:focus{
         border: none;
     }
+
+    .card {
+        max-width: 100%;
+        overflow: hidden;
+      }
 }
