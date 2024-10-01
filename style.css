@@ -40,15 +40,20 @@ body {
     color: white;
 }
 
-.header-banner {
-    background-color: #F8F8F8;
-    margin-top: 2rem;
+.btn-custom-2 {
+    background-color: unset;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    height: 100%;
+    border: 1px solid black;
 }
 
-#imgHeader {
-    width: 100%; 
-    height: 100%; 
-    border-radius: 50% 0 50% 0; 
+.btn-custom-2:hover {
+    background-color: #FCAC13;
+    color: white;
+    border: 1px solid FCAC13;
 }
 
 .fitcar-section {
@@ -110,7 +115,7 @@ body {
     margin-bottom: 10px;
 }
 
-.fitcar-section .btn-custom {
+.fitcar-section .btn-custom .btn-custom-2 {
     background-color: #FCAC13;
     color: white;
     padding: 12px 30px;
@@ -143,6 +148,24 @@ body {
     border: unset;
 }
 
+#imgCotacao{
+    height: 35rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.error-message {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#titleErrorMessage{
+    color: red;
+    font-weight: 700;
+}
+
+
 @media screen and (max-width: 769px) {
     #navbarNav{
         padding: 2rem;
@@ -160,5 +183,17 @@ body {
     .card {
         max-width: 100%;
         overflow: hidden;
-      }
+    }
+
+    #imgCotacao{
+        margin-bottom: 2rem;
+    }
+
+    .btn-custom-2{
+        margin-top: 2rem;
+    }
+
+    #imgsTelemedicina{
+        margin-top: 2rem;
+    }
 }
