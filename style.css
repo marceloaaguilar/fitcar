@@ -4,6 +4,14 @@ body {
     overflow-x: hidden;
 }
 
+#inicio{
+    height: 70vh;
+}
+
+.background-image{
+    filter: brightness(0.7);
+}
+
 .navbar {
     box-shadow: 0px 5px 10px  lightgray;
   }
@@ -54,6 +62,20 @@ body {
     background-color: #FCAC13;
     color: white;
     border: 1px solid FCAC13;
+}
+
+.btn-custom-3 {
+    background-color: unset;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.btn-custom-3:hover{
+    background-color: #FCAC13;
 }
 
 .fitcar-section {
@@ -195,5 +217,13 @@ body {
 
     #imgsTelemedicina{
         margin-top: 2rem;
+    }
+
+    #inicio{
+        height: 40vh;
+    }
+
+    .background-image{
+        filter: brightness(0.4);
     }
 }
